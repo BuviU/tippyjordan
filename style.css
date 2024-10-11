@@ -908,6 +908,25 @@ iconify-icon.quote {
 }
 
 
+#slider-img{
+  background-image: url(images/slider-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+
+@media (max-width: 992px) {
+
+#slider-img{
+  background-image: url(images/slider-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: left;
+}
+
+}
 
 
 
